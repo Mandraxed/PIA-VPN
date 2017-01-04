@@ -33,6 +33,7 @@ The file is made executable with 'sudo chmod +x'
 Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them
 Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions in which they are prohibited by law. Check the law in your jurisdiction before using any software, including this script.
 TODO
-The script in current form may cache passwords in memory. A later version may use 'auth-nocache' options to prevent this
+The script in current form may cache passwords in memory. A later version may use 'auth-nocache' options to prevent this.
+
 Version 0.1 - Amber Alligator
 Paul Roche (c) 2017
