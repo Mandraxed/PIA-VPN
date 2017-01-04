@@ -1,5 +1,5 @@
-PIA-VPN
-README
+# PIA-VPN
+## README
 Program to install Private Internet Access Virtual Private Network on Linux installations. Tested on Fedora 25 64-bit, Linux Mint 18.1 and Debian PowerPC 32-bit.
 
 Automates installation and execution of PIA VPNs on a per session basis using an installation file and start file.
@@ -14,14 +14,15 @@ No lock symbol will appear (even when you are connected to the VPN). You may tes
 To change from the default (Swiss) PIA VPN server to another server, simply amend the last line by deleting reference to the Swiss PIA VPN server and insert the name of the PIA VPN server you would prefer to use.
 For example, to change from the Swiss to the London server; edit the last line of the script to 'UK London.ovpn' instead of Switzerland.ovpn as below:
 
-'sudo openvpn Switzerland.ovpn' becomes 'sudo openvpn UK London.ovpn
+$ sudo openvpn Switzerland.ovpn
+becomes
+$ sudo openvpn UK London.ovpn
 
 Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them.
 Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions in which they are prohibited by law. Check the law in your jurisdiction before using any software, including this script.
 
-=Changelog=
-Version 0.1 - Amber Alligator - initial version
-
-Version 0.2 - Black Badger. All known bugs fixed.
+## Changelog
+* Version 0.1 - Amber Alligator - initial version
+* Version 0.2 - Black Badger. All known bugs fixed.
 
 Paul Roche (c) 2017
