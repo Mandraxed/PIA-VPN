@@ -38,7 +38,7 @@ Nothing in this script does or is intended to endorse or encourage the use of Vi
 
 TODO
 The script in current form may cache passwords in memory. A later version should use 'auth-nocache' options to prevent this.
-The script could be automated to run at login (though this should require negative commenting of the script so it is not accidentally automated).
+The script could be automated to run at login (though this should require negative commenting of the script so it is not accidentally automated). Finally, the script should allow users to permit unnecessary code be commented out after first run (to avoid repetition of unnecessary processes after first run).
 
 Version 0.1 - Amber Alligator.
 
