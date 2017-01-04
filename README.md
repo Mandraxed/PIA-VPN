@@ -7,7 +7,7 @@
 # For example, Fedora 25 (64-bit) and Linux for PowerPC (32-bit) may prove problematic (when trying to install and execute...
 # ...PIA VPN capability
 
-# This script automates installation and execution of PIA VPNs provided you have root access
+# This simple script automates installation and execution of PIA VPNs provided you have root access
 
 # Save the file (for example) to your Desktop
 # Open a terminal and type 'cd Desktop' to change to the correct directory
