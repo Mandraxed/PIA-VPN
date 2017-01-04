@@ -1,30 +1,23 @@
 #!/bin/sh
-# (c) 2017 Paul Roche
-# Licence unrestricted except Jonathan Weare must apply in triplicate for a licence for every computer he wishes to use it on
-# Program to install Private Internet Access VPN on virtually any Linux OS
-# (from Fedora 25 64-bit to Linux Debian PowerPC 32-bit)
-# Fedora 25 (64-bit) and Debian Linux for PowerPC32 (32-bit) can present challenges when installing PIA VPN capability...
-# even though (or perhaps because) they represent polar opposites in the Linux OS spectrum
-# This script should work with any Linux OS, whether 32 or 64 bit. It is not fancy. There are no bells and whistles.
-# But it works.
-# Note that an account with Private Internet Access (a company with which I have no affiliation) is required to enable the VPN
-# Version 0.1 - Amber Alligator
+# (c) 4 January 2017 Paul Roche
+# Program to install Private Internet Access VPN on Fedora 25 64-bit and Linux Debian PowerPC 32-bit
+# Fedora 25 and Linux for PowerPC can present challenges when installing PIA VPN capability
+# Note that an account with Private Internet Access is required to enable the VPN
+# Version 0.2 - Black Badger
 
-sudo apt-get install openvpn wget
-#remember to comment-out the above line if openvpn and wget have already been installed
-cd /etc/openvpn
-# Once installed, you can also comment out the two lines immediately below (the wget and unzip lines)
-sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
-sudo unzip openvpn.zip
-# check PIA VPN server locations installed properly
-ls -l
-# select a server - Switzerland is used in the example but any server may be nominated
-# (e.g. UK London) by editing it to UK London.ovpn instead of Switzerland.ovpn as below 
-sudo openvpn Switzerland.ovpn
-sudo chmod +x PIAVPN.sh
+# Answers yes to all server file replacement questions
+yes|sudo bin/PIAVPN.sh 
 
-# Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them
-# Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions
-# in which they are prohibited by law. Check the law in your own jurisdiction before using any software, including this script.
+# makes itself executable
+chmod +x "$0"
 
- 
+# installs openvpn and wget with error message if install fails
+apt-get install openvpn wget || { echo "Install failed"; exit 2; }
+
+cd /etc/openvpn || { echo "directory change failed"; exit 3; }
+wget 'https://www.privateinternetaccess.com/openvpn/openvpn.zip' || { echo "Failed to download openvpn.zip"; exit 4; }
+unzip openvpn.zip || { echo "Failed to unzip openvpn.zip"; exit 4; }
+# list of PIA VPN server locations
+# server list could be stripped using basename -s .ovpn <filename>
+ls *.ovpn
+
