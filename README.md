@@ -19,8 +19,9 @@ For example, to change from the Swiss to the London server; edit the last line o
 Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them.
 Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions in which they are prohibited by law. Check the law in your jurisdiction before using any software, including this script.
 
-Changelog:
+=Changelog=
 Version 0.1 - Amber Alligator - initial version
+
 Version 0.2 - Black Badger. All known bugs fixed.
 
 Paul Roche (c) 2017
