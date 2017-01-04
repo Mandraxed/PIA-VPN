@@ -1,5 +1,6 @@
 #!/bin/sh
 # (c) 2017 Paul Roche
+# Licence unrestricted except Jonathan Weare must apply in triplicate for a licence for every computer he wishes to use it on
 # Program to install Private Internet Access VPN on virtually any Linux OS
 # (from Fedora 25 64-bit to Linux Debian PowerPC 32-bit)
 # Fedora 25 (64-bit) and Debian Linux for PowerPC32 (32-bit) can present challenges when installing PIA VPN capability...
