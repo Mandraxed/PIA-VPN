@@ -6,7 +6,7 @@
 # even though (or perhaps because) they represent polar opposites within the Linux OS spectrum
 # This script should work with any Linux OS, whether 32 or 64 bit. It is not fancy. There are no bells and whistles.
 # But it works.
-# Note that an account with Private Internet Access is required to enable the VPN
+# Note that an account with Private Internet Access (a company with which I have no affiliation) is required to enable the VPN
 # Version 0.1 - Amber Alligator
 
 sudo apt-get install openvpn wget
