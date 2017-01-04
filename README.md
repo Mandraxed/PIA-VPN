@@ -28,12 +28,18 @@ There is a check to determine whether PIA VPN server locations have been install
 The user selects a server from the PIA VPN server list they would like to use and edits the script accordingly. A default PIA VPN server (contained in the script) is Switzerland but any PIA VPN server may be selected
 To change from the default (Swiss) PIA VPN server to another server, simply amend the last line by deleting reference to the Swiss PIA VPN server and insert the name of the PIA VPN server you would prefer to use.
 For example, to change from the Swiss to the London server; edit the last line of the script to 'UK London.ovpn' instead of Switzerland.ovpn as below:
-'sudo openvpn Switzerland.ovpn' becomes 'sudo openvpn UK London.ovpn'
-The file is made executable with 'sudo chmod +x'
-Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them
-Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions in which they are prohibited by law. Check the law in your jurisdiction before using any software, including this script.
-TODO
-The script in current form may cache passwords in memory. A later version may use 'auth-nocache' options to prevent this.
 
-Version 0.1 - Amber Alligator
+'sudo openvpn Switzerland.ovpn' becomes 'sudo openvpn UK London.ovpn
+
+The file is made executable with 'sudo chmod +x'
+
+Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them.
+Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions in which they are prohibited by law. Check the law in your jurisdiction before using any software, including this script.
+
+TODO
+The script in current form may cache passwords in memory. A later version should use 'auth-nocache' options to prevent this.
+The script could be automated to run at login (though this should require negative commenting of the script so that it is not accidentally automated).
+
+Version 0.1 - Amber Alligator.
+
 Paul Roche (c) 2017
