@@ -17,4 +17,8 @@ ls -l
 sudo openvpn Switzerland.ovpn
 sudo chmod +x
 
+# Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them
+# Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions
+# in which they are prohibited by law
+
  
