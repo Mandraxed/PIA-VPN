@@ -1,7 +1,7 @@
 # PIA-VPN
 # README
-# Program to install Private Internet Access Virtual Private Network on any Linux installation
-# (including sometimes troublesome distributions such as Fedora 25 64-bit and PowerPC 32-bit
+# Program to install Private Internet Access Virtual Private Network on virtually any Linux installation
+# (including potentially challenging distributions such as Fedora 25 64-bit or Debian PowerPC 32-bit
 
 # It can prove challenging to install a Private Internet Access Virtual Private Network depending on the Linux installation
 # For example, Fedora 25 (64-bit) and Linux for PowerPC (32-bit) may prove problematic (when trying to install and execute...
@@ -23,6 +23,9 @@
 # Remember to comment-out the first line of the script (installing openvpn and wget) if they are already installed
 # it will still work if you do not comment-out otiose lines
 # That is to say, please remember to comment-out 'sudo apt-get install openvpn wget' if already installed
+
+# Note that no lock symbol will appear even when you are connected to the VPN
+# You can test the VPN is working by checking the geolocation of your IP address
 
 # The script works by going to the /etc/openvpn directory via 'cd /etc/openvpn'
 # It then uses wget to grab the PIA VPN server list 'sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip'
