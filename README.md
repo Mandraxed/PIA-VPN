@@ -53,4 +53,4 @@
 # A later version should use the 'auth-nocache' option to prevent this
 
 # Version 0.1 - Amber Alligator
-# Paul Roche (c) 2017 
+# Paul Roche (c) 2017  
