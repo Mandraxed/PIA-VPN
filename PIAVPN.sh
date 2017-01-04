@@ -12,6 +12,7 @@
 sudo apt-get install openvpn wget
 #remember to comment-out the above line if openvpn and wget have already been installed
 cd /etc/openvpn
+# Once installed, you can also comment out the two lines immediately below (the wget and unzip lines)
 sudo wget https://www.privateinternetaccess.com/openvpn/openvpn.zip
 sudo unzip openvpn.zip
 # check PIA VPN server locations installed properly
