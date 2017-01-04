@@ -6,7 +6,7 @@
 # Version 0.2 - Black Badger
 
 # Answers yes to all server file replacement questions
-yes|sudo bin/PIAVPN.sh 
+# yes|sudo bin/PIAVPN.sh 
 
 # makes itself executable
 chmod +x "$0"
