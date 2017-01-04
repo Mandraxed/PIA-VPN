@@ -13,7 +13,7 @@ sudo unzip openvpn.zip
 # check PIA VPN server locations installed properly
 ls -l
 # select a server - Switzerland is used in the example but any server may be nominated
-# (e.g. London) by editing it to London.ovpn instead of Switzerland.ovpn as below 
+# (e.g. UK London) by editing it to UK London.ovpn instead of Switzerland.ovpn as below 
 sudo openvpn Switzerland.ovpn
 sudo chmod +x
 
