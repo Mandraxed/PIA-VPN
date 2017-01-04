@@ -20,6 +20,6 @@ sudo chmod +x
 
 # Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them
 # Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions
-# in which they are prohibited by law
+# in which they are prohibited by law. Check the law in your own jurisdiction before using any software, including this script.
 
  
