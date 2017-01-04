@@ -19,7 +19,7 @@ ls -l
 # select a server - Switzerland is used in the example but any server may be nominated
 # (e.g. UK London) by editing it to UK London.ovpn instead of Switzerland.ovpn as below 
 sudo openvpn Switzerland.ovpn
-sudo chmod +x
+sudo chmod +x PIAVPN.sh
 
 # Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them
 # Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions
