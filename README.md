@@ -41,6 +41,10 @@
 
 # The file is made executable with 'sudo chmod +x'
 
+# Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them
+# Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions
+# in which they are prohibited by law
+
 # TODO
 # The script in current form may cache passwords in memory 
 # A later version should use the 'auth-nocache' option to prevent this
