@@ -4,7 +4,7 @@
 # Program to install Private Internet Access VPN on virtually any Linux OS
 # (from Fedora 25 64-bit to Linux Debian PowerPC 32-bit)
 # Fedora 25 (64-bit) and Debian Linux for PowerPC32 (32-bit) can present challenges when installing PIA VPN capability...
-# even though (or perhaps because) they represent polar opposites within the Linux OS spectrum
+# even though (or perhaps because) they represent polar opposites in the Linux OS spectrum
 # This script should work with any Linux OS, whether 32 or 64 bit. It is not fancy. There are no bells and whistles.
 # But it works.
 # Note that an account with Private Internet Access (a company with which I have no affiliation) is required to enable the VPN
