@@ -31,7 +31,7 @@ For example, to change from the Swiss to the London server; edit the last line o
 
 'sudo openvpn Switzerland.ovpn' becomes 'sudo openvpn UK London.ovpn
 
-The file is made executable with 'sudo chmod +x'
+The file is made executable with 'sudo chmod +x PIAVPN.sh'
 
 Please check whether VPN services are permitted by law in the jurisdiction in which you intend to use them.
 Nothing in this script does or is intended to endorse or encourage the use of Virtual Private Networks in jurisdictions in which they are prohibited by law. Check the law in your jurisdiction before using any software, including this script.
